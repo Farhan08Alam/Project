@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home_24"
+        />
+    <item
+        android:title="Diet Plan"
+        android:id="@+id/diet"
+        android:icon="@drawable/food_24"
+        />
+
+    <item
+        android:title="Exercises"
+        android:id="@+id/exercise"
+        >
+      <menu>
+          <item
+              android:title="Cardio"
+              android:id="@+id/cardio"/>
+          <item
+              android:title="Abs"
+              android:id="@+id/abs"/>
+          <item
+              android:title="Chest"
+              android:id="@+id/chest"/>
+      </menu>
+
+
+    </item>
+
+
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/settings_24"
+        >
+
+    </item>
+
+
+</menu>
+
